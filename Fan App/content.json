@@ -1,26 +1,26 @@
 {
-  "name": "BASE Creator",
-  "bio": "",
-  "contactEmail": "Place Email",
-  "contactLabel": "Email",
+  "name": "Dre Artist App",
+  "bio": "Welcome to School",
+  "contactEmail": "dreartistmusic@gmail.com",
+  "contactLabel": "Connect",
   "backgroundColor": "#000000",
   "background": {
-    "enabled": false,
-    "type": "none",
-    "url": ""
+    "enabled": true,
+    "type": "image",
+    "url": "./media/background-image-1792112446690.png"
   },
   "heroMedia": {
     "enabled": true,
     "type": "image",
-    "url": "./media/hero-image-1783820062284.png",
+    "url": "./media/hero-image-1792112448631.jpg",
     "animation": "float"
   },
   "chime": {
-    "enabled": false,
-    "url": "",
+    "enabled": true,
+    "url": "./media/chime-1792112449676.mp3",
     "volume": 0.65
   },
-  "pillColor": "#000000",
+  "pillColor": "#d29d00",
   "innerSurface": {
     "style": "default",
     "color": "",
@@ -32,7 +32,12 @@
     "watch_url": "",
     "description": ""
   },
-  "links": [],
+  "links": [
+    {
+      "label": "📸 Instagram",
+      "url": "https://www.instagram.com/therealdreartist/?hl=en"
+    }
+  ],
   "mediaGateway": {
     "enabled": false,
     "collections": [
@@ -50,14 +55,42 @@
     },
     "externalMedia": []
   },
-  "supporters": [],
+  "supporters": [
+    {
+      "id": "supporter-1792110218125-a48fd813c0f6d8",
+      "type": "supporter",
+      "name": "DJ Mo Fiya",
+      "tagline": "Official Supporter",
+      "description": "",
+      "thumbnail": "./media/supporter-supporter-1792110218125-a48fd813c0f6d8-1792112451612.png",
+      "url": "https://dj-mofiya.github.io/DJ-MOFIYA-APP/Fan%20App/index.html",
+      "buttonText": "Go!",
+      "enabled": true
+    },
+    {
+      "id": "supporter-1792110325607-debb497928e25",
+      "type": "supporter",
+      "name": "DJ Alamo",
+      "tagline": "Official Supporter",
+      "description": "Music/Dj",
+      "thumbnail": "./media/supporter-supporter-1792110325607-debb497928e25-1792112452625.png",
+      "url": "https://app.djalamo.com/Fan%20App/index.html",
+      "buttonText": "Go!",
+      "enabled": true
+    }
+  ],
   "community": {
-    "enabled": false,
+    "enabled": true,
     "provider": "custom",
-    "name": "",
-    "icon": "",
+    "name": "Art Room",
+    "icon": "./media/community-icon-1792112453597.png",
     "buttonText": "Enter Community",
     "url": "",
-    "embed": ""
+    "embed": "https://organizations.minnit.chat/986223696984530/c/Main?embed&app"
+  },
+  "analytics": {
+    "enabled": false,
+    "provider": "",
+    "snippet": ""
   }
 }
